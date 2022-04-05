@@ -1,0 +1,23 @@
+.navbar-search {
+    border-left: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.brand-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    line-height: inherit;
+    font-weight: 700;
+    color: #000;
+}
+
+span.lohny {
+    margin-bottom: 0;
+    color: #ff7315;
+    font-size: 1.4rem;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+

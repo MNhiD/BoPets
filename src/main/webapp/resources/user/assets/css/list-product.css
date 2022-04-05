@@ -1,0 +1,205 @@
+/* Nút Dropdown*/
+.nut_dropdown {
+  background-color: #fff;
+  color: #000;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}  
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown {
+	width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+/* Nội dung Dropdown */
+.noidung_dropdown {
+  right: 0;
+  top: 57px;
+  width: 100%;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Thiết kế style cho các đường dẫn tronng Dropdown */
+.noidung_dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.noidung_dropdown a:hover {background-color: #ddd;}
+
+.dropdown:hover .noidung_dropdown {display: block;}
+
+.dropdown:hover .nut_dropdown {background-color: #fff;}
+
+/*Dùng Để hiển thị nội dung*/
+.hienThi {display:block;}
+ul.navbar-nav li.nav-item:nth-child(2) i.nav-link-icon,
+ul.navbar-nav li.nav-item:nth-child(3) i.nav-link-icon {
+  display: block;
+  color: #fff;
+  font-size: 11px;
+  margin-top: -23px;
+  margin-left: 84px;
+}
+
+ul.navbar-nav li.nav-item:nth-child(3) i.nav-link-icon {
+  margin-left: 70px;
+}
+
+li.nav-item > div.item-header > i.nav-link-icon:nth-child(2) {
+  color: #ff7315;
+}
+
+ul.navbar-nav li:nth-child(3) i {
+  margin-left: 70px;
+}
+
+ul.navbar-nav li:nth-child(4) i {
+  margin-left: 74px;
+}
+
+.nav-item:hover .nav-link-icon,
+.nav-item:hover .nav-link {
+  color: #ff7315 !important;
+}
+
+ul.top-hnt-right-content li.usernhy:first-child:hover {
+  background: #ff7315;
+}
+
+.menu-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 800px;
+  height: 408px;
+  background-color: #fff;
+  top: 80%;
+  -webkit-transform: translate(-65%, 0);
+          transform: translate(-65%, 0);
+  border-radius: 40px;
+  display: none;
+  -webkit-box-shadow: 4px 1px 11px -3px #888;
+          box-shadow: 4px 1px 11px -3px #888;
+}
+
+.menu-details::after {
+  content: "";
+  position: absolute;
+  top: -32px;
+  right: 214px;
+  border-width: 17px 20px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  cursor: pointer;
+}
+
+ul.navbar-nav li.nav-item:nth-child(2):hover .menu-details {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.menu-pet-img {
+  margin-top: 90px;
+}
+
+.menu-type {
+  list-style: none;
+  margin: 30px 0;
+  width: 200px;
+}
+
+ul li.pet-item {
+  padding: 10px 0;
+  color: #807f7c;
+}
+
+ul li.pet-item:first-child a,
+ul li.pet-item:last-child a {
+  font-weight: 700;
+}
+
+.service-pet {
+  position: absolute;
+  width: 760px;
+  height: 408px;
+  background-color: #fff;
+  padding: 20px 25px;
+  font-size: 16px;
+  border-radius: 40px;
+  top: 80%;
+  -webkit-transform: translate(-80%, 0);
+          transform: translate(-80%, 0);
+  display: none;
+  -webkit-box-shadow: 4px 1px 11px -3px #888;
+          box-shadow: 4px 1px 11px -3px #888;
+}
+
+.service-pet::after {
+  content: "";
+  position: absolute;
+  top: -32px;
+  right: 90px;
+  border-width: 17px 20px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  cursor: pointer;
+}
+
+.service-img {
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+.service-list-col-1 {
+  list-style: none;
+  margin: 18px 18px 0 -35px;
+}
+
+.service-list-col-2 {
+  list-style: none;
+  margin: 18px 36px 18px 23px;
+}
+
+.service-list-item {
+  padding: 18px 0;
+}
+
+ul li.service-list-item:nth-child(5) {
+  float: right;
+}
+
+ul.navbar-nav li.nav-item:nth-child(3):hover .service-pet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.path-icon{
+	margin-bottom: -5px;
+}
+.check-color{
+	font-size: 20px
+}
+.search-icon{
+	font-size: 30px;
+}
+.filter-icon{
+	right: 10px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+/*# sourceMappingURL=list-product.css.map */

@@ -1,0 +1,124 @@
+.logo-text {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.logo-img {
+    background: url(../images/logo.png) no-repeat center /cover;
+    width: 85px;
+    height: 78px;
+    margin-top: -15px;
+}
+.left-sidebar {
+    position: fixed !important;
+}
+
+.navbar-header {
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-collapse {
+    position: fixed;
+}
+
+
+/* tab  */
+
+.tabs {
+    display: flex;
+    position: relative;
+}
+
+.tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    background-color: #c23564;
+    transition: all 0.2s ease;
+}
+
+.tab-item {
+    min-width: 80px;
+    padding: 16px 20px 11px 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #c23564;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.tab-icon {
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+    background-color: #fff;
+    width: 52px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tab-item:hover {
+    opacity: 1;
+    background-color: rgba(194, 53, 100, 0.05);
+    border-color: rgba(194, 53, 100, 0.1);
+}
+
+.tab-item.active {
+    opacity: 1;
+}
+
+.table-content {
+    padding: 28px 0;
+}
+
+.tab-pane {
+    color: #333;
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.tab-pane h2 {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.tab-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tab-search>input {
+    margin: 0 40px;
+    height: 40px;
+    width: 310px;
+    outline: none;
+    border-radius: 5px;
+    border-color: rgb(185, 132, 132);
+}
+
+.tab-search>select {
+    margin: 0 40px;
+    height: 40px;
+    width: 235px;
+    outline: none;
+    border-radius: 5px;
+    border-color: rgb(185, 132, 132);
+}
+
+
+/* table  */
